@@ -1,0 +1,3 @@
+com.example.config.EnableMagicAutoConfiguration=\
+br.com.caelum.DispatcherServletConfiguration,\
+br.com.caelum.MvcConfiguration
