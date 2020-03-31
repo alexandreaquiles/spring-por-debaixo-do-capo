@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  mysql.filmes:
+    image: mysql:latest
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: caelum123
+      MYSQL_DATABASE: filmes
+    volumes:
+      - mysql.filmes:/var/lib/mysql
+volumes:
+  mysql.filmes:
